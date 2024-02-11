@@ -4,11 +4,13 @@
   "description": "api for react application",
   "main": "index.js",
   "scripts": {
-    "test": "node"
+    "test": "node",
+    "vercel-build": "echo hello"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.2",
     "express": "^4.18.2"
   }
 }
