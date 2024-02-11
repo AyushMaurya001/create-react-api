@@ -1,6 +1,14 @@
 {
+  "name": "create-react-api",
+  "version": "1.0.0",
+  "description": "api for react application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.1",
     "express": "^4.18.2"
   }
 }
