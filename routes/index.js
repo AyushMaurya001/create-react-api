@@ -1,10 +1,10 @@
 const express = require("express");
 const v1 = express.Router();
 
-v1.get("", (req, res)=>{
-    res.json(
-        "Hello 😉"
-    )
-})
+const userRouter = require("./user");
+const accountRouter = require("./account");
 
-module.exports = v1
+v1.use("/user", userRouter);
+v1.use("/account", accountRouter);
+
+module.exports = v1;

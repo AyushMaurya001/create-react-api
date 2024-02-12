@@ -1,16 +1,10 @@
 {
-  "name": "create-react-api",
-  "version": "1.0.0",
-  "description": "api for react application",
-  "main": "index.js",
-  "scripts": {
-    "test": "node",
-    "vercel-build": "echo hello"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.2",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "zod": "^3.22.4"
   }
 }
